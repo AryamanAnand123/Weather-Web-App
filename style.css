@@ -1,4 +1,4 @@
-/* General Styles */
+/*General Style*/
 * {
     margin: 0;
     padding: 0;
@@ -189,7 +189,7 @@ body {
     color: #e74c3c;
 }
 
-/* Responsive adjustments */
+/* Responsive */
 @media (max-width: 600px) {
     .weather-details, .forecast-cards {
         flex-direction: column;
