@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="app-title">Weather Forecast</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Search for a city..." />
+        <button class="search-btn">🔍</button>
+      </div>
+
+      <div class="weather-card">
+        <div class="weather-info">
+          <img class="weather-icon" src="" alt="Weather icon" />
+          <div class="location">Fetching location...</div>
+          <div class="temperature">--°C</div>
+          <div class="condition">Loading...</div>
+        </div>
+
+        <div class="weather-details">
+          <div class="detail-card">
+            <i class="detail-icon">💧</i>
+            <h4>Humidity</h4>
+            <p>--%</p>
+          </div>
+          <div class="detail-card">
+            <i class="detail-icon">🌬️</i>
+            <h4>Wind Speed</h4>
+            <p>-- km/h</p>
+          </div>
+          <div class="detail-card">
+            <i class="detail-icon">📊</i>
+            <h4>Pressure</h4>
+            <p>-- hPa</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <div class="forecast-title">5-Day Forecast</div>
+        <div class="forecast-cards"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
